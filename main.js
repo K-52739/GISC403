@@ -47,7 +47,7 @@ const polygon = L.polygon([
 		[-41.033062,175.530687],
 		[-40.993562,175.456313]
 	],{
-		color: 'green',
+		color: 'blue',
 		fillColor: '#f03',
 	}).addTo(map).bindPopup('This is where I was raised in the Wairarapa.');
 
