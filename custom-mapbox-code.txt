@@ -1,4 +1,3 @@
-
 // 		EDIT THE CODE BELOW SO THAT IT CONTAINS:
 // 		1. Your username/style_code
 // 		2. Your access token
