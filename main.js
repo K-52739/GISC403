@@ -5,9 +5,7 @@ L.control.scale().addTo(map);
 
 
 // REPLACE THIS BLOCK OF CODE WITH YOUR MAPBOX CODE
-const tiles = L.tileLayer('https://api.mapbox.com/styles/v1/gdmckenzie/mapbox://styles/https://api.mapbox.com/styles/v1/gdmckenzie/clu1ok3u3000901ra7mosaocf.html?title=view&access_token=pk.eyJ1IjoiZ2RtY2tlbnppZSIsImEiOiJjbHNtZjZmdXEwb2h4MmltdGJodXd1MmpyIn0.UrHBVKEcCwL1MBqo8k7bmA&zoomwheel=true&fresh=true#5.09/-40.884/172.913.png', {
-	maxZoom: 19,
-	attribution: '&copy; OpenStreetMap &amp; MapBox'
+const tiles = L.tileLayer('https://api.mapbox.com/styles/v1/K-52739/mapbox://styles/gdmckenzie/clu1ok3u3000901ra7mosaocf/draft/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ2RtY2tlbnppZSIsImEiOiJjbHNtZjZmdXEwb2h4MmltdGJodXd1MmpyIn0.UrHBVKEcCwL1MBqo8k7bmA', {
 }).addTo(map);
 // END REPLACE BLOCK
 
