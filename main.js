@@ -23,7 +23,7 @@ Victoria_University_of_Wellington = L.marker([-41.290063,174.767938]).addTo(map)
 	.bindPopup('This is where I was introduced to GIS, and completed my undergraduate degree in environmental science.');
 
 The_University_of_Canterbury = L.marker([-43.522437,172.579437]).addTo(map)
-	.bindPopup('This is where I am currently, completing my Master's in GIS').openPopup();
+	.bindPopup('This is where I am currently, completing my Master\'s in GIS').openPopup();
 
 
 
