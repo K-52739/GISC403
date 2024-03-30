@@ -13,16 +13,16 @@ const tiles = L.tileLayer('https://api.mapbox.com/styles/v1/K-52739/mapbox://sty
 
 // There are four markers below.  Each has a latitude and longitude.  Edit these to be your unique places of interest.
 // Also note that each has its own 'pop-up.'  Edit the text in each of these to say why each location is important to you.
-The University of Auckland = L.marker([-36.851937,174.768937]).addTo(map)
+The_University_of_Auckland = L.marker([-36.851937,174.768937]).addTo(map)
 	.bindPopup('This is where I finished my secondary school education, and started my journey in tertiary education.');
 
-WelTec (Wellington Institute of Technology) = L.marker([-41.224688,174.883562]).addTo(map)
+WelTec = L.marker([-41.224688,174.883562]).addTo(map)
 	.bindPopup('This is where I further explored my passion in exercise science.');
 
-Victoria University of Wellington = L.marker([-41.290063,174.767938]).addTo(map)
+Victoria_University_of_Wellington = L.marker([-41.290063,174.767938]).addTo(map)
 	.bindPopup('This is where I was introduced to GIS, and completed my undergraduate degree in environmental science.');
 
-The University of Canterbury = L.marker([-43.522437,172.579437]).addTo(map)
+The_University_of_Canterbury = L.marker([-43.522437,172.579437]).addTo(map)
 	.bindPopup('This is where I am currently, completing my Master's in GIS').openPopup();
 
 
